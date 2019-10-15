@@ -1,0 +1,22 @@
+<ngx-charts-bar-vertical
+  (window:resize)="onResize($event)"
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="single"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  [yScaleMax]="yScaleMax"
+  [yAxisTicks]="yAxisTicks"
+  [showGridLines]="true"
+  [showDataLabel]="true"
+  (select)="onSelect($event)"
+>
+</ngx-charts-bar-vertical>
+
+<button mat-raised-button color="primary">Open table</button>
